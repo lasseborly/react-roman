@@ -1,5 +1,5 @@
 # react-roman
-A react component that converts numbers to roman numerals.
+A react component that displays your numbers in the form of roman numerals
 
 ## Install
 ```bash

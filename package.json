@@ -1,13 +1,10 @@
 {
   "name": "react-roman",
   "version": "1.0.1",
-  "description": "A react component that converts numbers to roman numerals.",
+  "description": "A react component that displays your numbers in the form of roman numerals",
   "main": "lib/Roman.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "peerDependencies": {
-    "react": "^0.14.7"
   },
   "keywords": [
     "react",
@@ -20,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/lasseborly/react-roman/issues"
   },
-  "homepage": "https://github.com/lasseborly/react-roman#readme"
+  "homepage": "https://github.com/lasseborly/react-roman#readme",
+  "peerDependencies": {
+    "react": "^0.14.7"
+  }
 }
