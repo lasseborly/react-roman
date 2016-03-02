@@ -1,0 +1,24 @@
+{
+  "name": "react-roman",
+  "version": "1.0.0",
+  "description": "A react component that converts numbers to roman numerals.",
+  "main": "lib/Roman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "^0.14.7"
+  },
+  "keywords": [
+    "react",
+    "roman",
+    "numbers",
+    "converter"
+  ],
+  "author": "Lasse Borly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lasseborly/react-roman/issues"
+  },
+  "homepage": "https://github.com/lasseborly/react-roman#readme"
+}
