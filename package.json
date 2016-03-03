@@ -4,7 +4,7 @@
   "description": "A react component that displays your numbers in the form of roman numerals",
   "main": "lib/Roman.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "keywords": [
     "react",
@@ -20,5 +20,13 @@
   "homepage": "https://github.com/lasseborly/react-roman#readme",
   "peerDependencies": {
     "react": "^0.14.7"
-  }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "expect": "^1.14.0",
+    "mocha": "^2.4.5",
+    "react": "^0.14.7",
+    "react-addons-test-utils": "^0.14.7"
+  },
+  "dependencies": {}
 }
