@@ -1,6 +1,6 @@
 {
   "name": "react-roman",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A react component that displays your numbers in the form of roman numerals",
   "main": "lib/Roman.js",
   "scripts": {
