@@ -17,16 +17,18 @@
   "bugs": {
     "url": "https://github.com/lasseborly/react-roman/issues"
   },
+  "repository" :
+    { "type" : "git",
+      "url" : "https://github.com/lasseborly/react-roman"
+    },
   "homepage": "https://github.com/lasseborly/react-roman#readme",
   "peerDependencies": {
     "react": "^0.14.7"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
     "expect": "^1.14.0",
     "mocha": "^2.4.5",
     "react": "^0.14.7",
     "react-addons-test-utils": "^0.14.7"
-  },
-  "dependencies": {}
+  }
 }

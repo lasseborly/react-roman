@@ -3,7 +3,6 @@
 [![npm package][npm-badge]][npm]
 [![License][license-badge]][license]
 
-
 A react component that displays your numbers in the form of roman numerals
 
 [build-badge]: https://img.shields.io/travis/lasseborly/react-roman/master.svg?style=flat-square
