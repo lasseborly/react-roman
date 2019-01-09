@@ -1,10 +1,12 @@
 {
   "name": "react-roman",
-  "version": "1.0.3",
-  "description": "A react component that displays your numbers in the form of roman numerals",
-  "main": "lib/Roman.js",
+  "version": "2.0.0",
+  "description": "Display your numbers in the form of roman numerals",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "watch": "tsc --watch",
+    "build": "tsc",
+    "prepublish": "yarn build",
+    "test": "jest"
   },
   "keywords": [
     "react",
@@ -12,23 +14,28 @@
     "numbers",
     "converter"
   ],
-  "author": "Lasse Borly",
-  "license": "MIT",
+  "main": "lib/main.js",
+  "files": [
+    "/lib"
+  ],
+  "homepage": "https://github.com/lasseborly/react-roman#readme",
+  "repository": "https://github.com/lasseborly/react-roman.git",
   "bugs": {
     "url": "https://github.com/lasseborly/react-roman/issues"
   },
-  "repository" :
-    { "type" : "git",
-      "url" : "https://github.com/lasseborly/react-roman"
-    },
-  "homepage": "https://github.com/lasseborly/react-roman#readme",
+  "author": "Lasse Borly <lasseborly@gmail.com>",
+  "license": "MIT",
   "peerDependencies": {
-    "react": "^0.14.7"
+    "react": "^16.7.0"
   },
   "devDependencies": {
-    "expect": "^1.14.0",
-    "mocha": "^2.4.5",
-    "react": "^0.14.7",
-    "react-addons-test-utils": "^0.14.7"
+    "@types/jest": "^23.3.12",
+    "@types/react": "^16.7.18",
+    "jest": "^23.6.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-testing-library": "^5.4.4",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2"
   }
 }
